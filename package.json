@@ -1,0 +1,31 @@
+{
+  "name": "mr-merdem",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "yarn": "yarn"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/courses/*",
+    "apps/*",
+    "apps/practice/*"
+  ],
+  "resolutions": {
+
+  },
+  "devDependencies": {
+    "lerna": "^6.5.1",
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0",
+    "node-sass": "^8.0.0",
+    "style-loader": "^3.3.1",
+    "css-loader": "^6.7.3"
+  },
+  "dependencies": {
+    "@next/font": "^13.1.6",
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

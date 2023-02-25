@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn info --json eslint-config-next
+
+PATH: 
+  /Users/mj/.rvm/gems/ruby-3.1.2/bin:/Users/mj/.rvm/gems/ruby-3.1.2@global/bin:/Users/mj/.rvm/rubies/ruby-3.1.2/bin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/mj/.rvm/bin:/Users/mj/Library/Android/sdk/emulator:/Users/mj/Library/Android/sdk/platform-toolsalias
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/mj/github/online-course/mr-merdem/packages/config/eslint/package.json: Unexpected token , in JSON at position 179
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "config-eslint",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "dependencies": {
+      "eslint":  "^8.34.0",
+      "eslint-config-next":  "^",
+      "eslint-config-prettier",
+      "eslint-config-react",
+      "eslint-config-turbo"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
